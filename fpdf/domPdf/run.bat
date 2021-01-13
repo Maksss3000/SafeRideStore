@@ -1,0 +1,11 @@
+git clone https://github.com/dompdf/dompdf.git
+cd dompdf
+
+git clone https://github.com/PhenX/php-font-lib.git lib/php-font-lib
+cd lib/php-font-lib
+git checkout 0.5.1
+cd ..
+
+git clone https://github.com/PhenX/php-svg-lib.git php-svg-lib
+cd php-svg-lib
+git checkout v0.3
