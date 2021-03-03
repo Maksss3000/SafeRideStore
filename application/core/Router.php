@@ -52,7 +52,7 @@ class Router
                 View::errorCode(404);
             }
         } else {
-          View::errorCode(404);
+            View::errorCode(404);
         }
     }
     //load parameter to params array if parameters passed in url
