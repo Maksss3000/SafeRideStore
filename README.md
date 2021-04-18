@@ -21,23 +21,23 @@ ___
 ##  Main Page.
 ___
 ***Main page***
-![Main](./img/Main.jpg "Main")
+![Main](./MarkDownImg/Main.jpg "Main")
 
 ## Before Registration.
 + *Before Registration you can see different products and sections.*<br>
   
 ***Riding Gear Sections***
-![Gear](img/gear.jpg "Gear")
+![Gear](MarkDownImg/gear.jpg "Gear")
 ***Brands***
-![Brands](img/Brands.jpg "Brands")
+![Brands](MarkDownImg/Brands.jpg "Brands")
 
 ***Jackets***
-![Jackets](img/jackets.jpg "Jackets")
+![Jackets](MarkDownImg/jackets.jpg "Jackets")
 
 + *You  can see specific product.*
   
 ***Helmet***
-![Helmet](img/Helmet.jpg "Helmet") 
+![Helmet](MarkDownImg/Helmet.jpg "Helmet") 
 
 + *But you can`t add to Cart/Buy any product before registration or loggin.*
 
@@ -57,12 +57,12 @@ ___
   *P.S Ofcourse by this actions , changes will occur data base.*
 
 ***Cart***
-![Cart](img/cart.jpg "Cart") 
+![Cart](MarkDownImg/cart.jpg "Cart") 
 
 ## After loggin as *Administrator*.
 ___
 ***Admin Panel***
-![Admin](img/admin.jpg "Admin Panel") 
+![Admin](MarkDownImg/admin.jpg "Admin Panel") 
 
 + **Administrator can:**
   + *Use all actions that logged user can do.*
@@ -86,10 +86,10 @@ ___
 
 
 ***Admin_Products***
-![Admin_Products](img/admin_products.jpg "Admin Products") 
+![Admin_Products](MarkDownImg/admin_products.jpg "Admin Products") 
 
 ***Admin_Discount***
-![Admin_Discount](img/admin_discount.jpg "Admin Discount") 
+![Admin_Discount](MarkDownImg/admin_discount.jpg "Admin Discount") 
 
 *P.S Ofcourse all action changes will occur data base.*
 
