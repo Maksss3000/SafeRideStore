@@ -22,10 +22,10 @@ class AccountController extends Controller
             if (isset($_POST['register'])) {
                 //Function Checking if customer with entered 
                 // user name or emalil exists in Data Base.
-                $massage = $this->checkIfExists($_POST['userName'], $_POST['email']);
+                $message = $this->checkIfExists($_POST['userName'], $_POST['email']);
                 //Message that user Already exist. 
-                if ($massage != "")
-                    $this->regMassage($massage);
+                if ($message != "")
+                    $this->regMassage($message);
                 //Registrating a new Customer and Adding him to Data Base.
                 else {
                     $cst = $this->customerCreate();

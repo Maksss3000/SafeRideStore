@@ -94,7 +94,7 @@ $productsArray = $vars['products'];
                             $priceTag = '<p class="card-text"><del>' . $productsArray[$i]->getPrice() . '$</del> <span class="text-danger font-weight-bold">' . Cart::calDiscount($productsArray[$i]->getDiscount(), $productsArray[$i]->getPrice()) . '$ (SALE)</span></p>';
                         } else $priceTag = '<p class="card-text">' . $productsArray[$i]->getPrice() . ' $</p>';
                         echo
-                            '
+                        '
                             <div class=" col-sm-4  d-flex align-items-center flex-column">
                             <div class="card " style="width: 16rem;">
                                 <img src="../../../' . $productsArray[$i]->getImgPath() . '" class="card-img-top" alt="...">
@@ -119,7 +119,7 @@ $productsArray = $vars['products'];
                         } else
                             $priceTag = '<p class="card-text">' . $productsArray[$i]->getPrice() . ' $</p>';
                         echo
-                            '<div class=" col-sm-4  d-flex align-items-center flex-column">
+                        '<div class=" col-sm-4  d-flex align-items-center flex-column">
                             <div class="card " style="width: 16rem;">
                                 <img src="../../../' . $productsArray[$i]->getImgPath() . '" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -142,7 +142,7 @@ $productsArray = $vars['products'];
                             $priceTag = '<p class="card-text"><del>' . $productsArray[$i]->getPrice() . '$</del> <span class="text-danger font-weight-bold">' . Cart::calDiscount($productsArray[$i]->getDiscount(), $productsArray[$i]->getPrice()) . '$ (SALE)</span></p>';
                         } else $priceTag = '<p class="card-text">' . $productsArray[$i]->getPrice() . ' $</p>';
                         echo
-                            '<div class=" col-sm-4  d-flex align-items-center flex-column">
+                        '<div class=" col-sm-4  d-flex align-items-center flex-column">
                             <div class="card " style="width: 16rem;">
                                 <img src="../../../' . $productsArray[$i]->getImgPath() . '" class="card-img-top" alt="...">
                                 <div class="card-body">

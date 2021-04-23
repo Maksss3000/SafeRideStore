@@ -16,10 +16,12 @@ class Router
     //adding route to routes array 
     public function add($route, $params)
     {
-        $route = '#^' . $route . '$#'; #Turnig $route into RegEx   (Prepering for preg_match)
+        #Turnig $route into RegEx (Prepering for preg_match)
+        $route = '#^' . $route . '$#';
         $this->routes[$route] = $params;
     }
-    //Check if the current url exists in routes if true add controller and action to params
+    //Check if the current url exists in routes if true 
+    //add controller and action to params
     public function match()
     {
         $url = trim($_SERVER['REQUEST_URI'], '/'); #current url whitout '/'  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -42,7 +44,8 @@ class Router
             $path = 'application\controllers\\' . ucfirst($this->params['controller']) . 'Controller';
             if (class_exists($path)) {
                 $action = $this->params['action'] . 'Action';
-                if (method_exists($path, $action)) { #check if method Action exists in this controller
+                //#check if method Action exists in this controller
+                if (method_exists($path, $action)) {
                     $controller = new $path($this->params);
                     $controller->$action();
                 } else {

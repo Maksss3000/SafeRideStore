@@ -21,8 +21,8 @@ class View
         ob_start();
         require 'application/views/' . $this->path . '.php';
         $content = ob_get_clean();
-        require  'application/views/layouts/' . $this->layout . '.php'; # load layout
-
+        # load layout
+        require  'application/views/layouts/' . $this->layout . '.php';
     }
     public function redirect($url)
     {
