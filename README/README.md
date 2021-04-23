@@ -139,6 +139,24 @@ if (empty($_POST) === false) {
 ```
 ___
 
+## How to run the Project.
+ + Install *XAMPP* Control Panel.
+ + Put into folder XAMPP->*htdocs* the Folder with Project (*SafeRideStore*).
+ + Start XAMPP
+   + Apache.
+   + MySql.
+   + ![XAMPP](img/XAMPP.jpg/ "XAMPP") 
+ + Open PhpMyAdmin Server.
+   + Import the database-*storedatabase6* From *SQL DATA BASE* folder to phpMyAdminServer.
+     + Before that you need to *create empty* DB with *same name!* and then *import* db from folder to empty created DB.
+     + charset - 'utf8'.
+ + Run the project in browser,by entering in url line *http://localhost/SafeRideStore/*
+
+ **You can change in project connection to specific Data Base.**
++ application->config->db. 
+
+___
+
 ## Created By Maks and Alex.
 
 *You can see all code in github files.*<br>
